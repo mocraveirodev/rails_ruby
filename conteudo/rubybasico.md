@@ -122,3 +122,23 @@ Testa vários cenários da condição.
 Uma maneira resumida de fazer um **if/else** em uma única linha.
 
 [Exemplo](/exemplos/03_condicionais.rb)
+
+## Operadores Relacionais
+
+- `>`: maior
+- `>=`: maior ou igual
+- `<`: menor
+- `<=`: menor ou igual
+- `==`: igual
+- `!=`: diferente
+
+Fazem  relação de comparação entre 2 elementos.
+
+## Operadores Aritméticos
+
+- `+`: soma
+- `-`: subtração
+- `*`: multiplicação
+- `/`: divisão
+- `%`: resto  da divisão
+- `**`: potenciação
