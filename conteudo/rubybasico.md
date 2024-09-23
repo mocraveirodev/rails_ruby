@@ -63,6 +63,8 @@ Geralmente é a tela, mas pode ser representada por várias coisas como uma impr
 
 No Ruby a saída padrão se dá através do `puts` (**put s**tring) para imprimir algo na tela.
 
+**Print** também imprime na tela mas não quebra a linha.
+
 [Exemplo](/exemplos/02_IO.rb)
 
 ## Entrada Padrão (stdin - standart in)
@@ -94,3 +96,29 @@ Remove as quebras de linha do elemento.
 - `to_s`: transforma em string
 
 [Exemplo](/exemplos/02_IO.rb)
+
+## Estruturas condicionais
+
+### If (se)
+
+Testa uma condição dada e se for atendida ele entra no bloco e segue as intruções.
+
+[Exemplo](/exemplos/03_condicionais.rb)
+
+### Unless (a menos que - condicional falsa)
+
+É um **if** invertido, como se estivéssemos negando a condição.
+
+[Exemplo](/exemplos/03_condicionais.rb)
+
+### Case
+
+Testa vários cenários da condição.
+
+[Exemplo](/exemplos/03_condicionais.rb)
+
+### Condicional Ternária
+
+Uma maneira resumida de fazer um **if/else** em uma única linha.
+
+[Exemplo](/exemplos/03_condicionais.rb)
