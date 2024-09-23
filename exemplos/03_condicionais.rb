@@ -26,7 +26,7 @@ print "Digite sua idade: "
 idade = gets.chomp.to_i
 
 case idade
-when 0..12
+when 0..12 # os dois pontos (..) indica um intervalo
   puts "Criança"
 when 13..17
   puts "Adolescente"

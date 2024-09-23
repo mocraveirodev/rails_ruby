@@ -142,3 +142,16 @@ Fazem  relação de comparação entre 2 elementos.
 - `/`: divisão
 - `%`: resto  da divisão
 - `**`: potenciação
+
+## Estruturas de repetição
+
+### While (enquanto)
+
+Testa uma condição e enquanto ela for verdadeira, faz as ações internas. Precisa incluir uma condição de parada para não cair em um loop infinito.
+
+[Exemplo](/exemplos/04_repeticao.rb)
+
+
+### each (cada)
+
+Vai percorrendo a coleção, e passando por cada elemento e executando a instrução sem precisar ficar incrementando.
