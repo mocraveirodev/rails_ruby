@@ -63,8 +63,34 @@ Geralmente é a tela, mas pode ser representada por várias coisas como uma impr
 
 No Ruby a saída padrão se dá através do `puts` (**put s**tring) para imprimir algo na tela.
 
+[Exemplo](/exemplos/02_IO.rb)
+
 ## Entrada Padrão (stdin - standart in)
 
 Geralmente é representado pelo teclado.
 
 No Ruby usamos o `gets` (**get s**tring) para "ler" algo do teclado.
+
+[Exemplo](/exemplos/02_IO.rb)
+
+## /n
+
+É o "new line" ou "quebra de linha" , o **enter** de damos após a ação de inserir o dado no gets.
+
+[Exemplo](/exemplos/02_IO.rb)
+
+## .chomp
+
+Remove as quebras de linha do elemento.
+
+[Exemplo](/exemplos/02_IO.rb)
+
+## Coerção ou Casting
+
+É quando transformamos o tipo do elemento. O tipo original não é alterado, apenas é "interpretado" com o tipo que queremos.
+
+- `to_i`: transforma em integer
+- `to_f`: transforma em float
+- `to_s`: transforma em string
+
+[Exemplo](/exemplos/02_IO.rb)
