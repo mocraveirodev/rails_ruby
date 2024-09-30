@@ -28,6 +28,8 @@ Para abrir e usar é só digitar `irb`no terminal e para sair, basta escrever `e
 
 [Site Pry REPL](https://github.com/pry)
 
+`gem install pry`
+
 É uma evolução do IRB. Além de ter a coloração de uma IDE, tamém tem a identação melhorando e facilitando a forma de visualização.
 
 Para deixar o `pry` como padrão ao rodar o `irb`, siga os passos:
